@@ -10,5 +10,7 @@ public class task_11 {
         String noSpace = s.replaceAll(" ", "");
 
         System.out.println(noSpace);
+
+        scanner.close();
     }
 }

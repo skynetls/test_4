@@ -7,5 +7,7 @@ public class task_10 {
         String s = scanner.nextLine();
 
         System.out.println(s);
+
+        scanner.close();
     }
 }

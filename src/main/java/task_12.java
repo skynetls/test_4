@@ -17,5 +17,6 @@ public class task_12 {
         else {
             System.out.println("Строка с наибольшей длинной: "+s2);
         }
+        scanner.close();
     }
 }
