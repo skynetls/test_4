@@ -14,8 +14,11 @@ public class task_12 {
         if (n1 > n2){
             System.out.println("Строка с наибольшей длинной: "+s1);
         }
-        else {
+        else if (n1 < n2){
             System.out.println("Строка с наибольшей длинной: "+s2);
+        }
+        else {
+            System.out.println("Строки равны");
         }
         scanner.close();
     }
